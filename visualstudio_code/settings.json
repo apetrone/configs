@@ -1,0 +1,11 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.fontSize": 12,
+	"editor.renderWhitespace": "all",
+	"editor.insertSpaces": false,
+	"editor.rulers": [79],
+	"editor.autoClosingBrackets": false,
+	"editor.useTabStops": true,
+	"editor.trimAutoWhitespace": true,
+	"files.trimTrailingWhitespace": true
+}
