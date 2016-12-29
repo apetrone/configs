@@ -1,0 +1,28 @@
+{
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"default_line_ending": "unix",
+	"draw_minimap_border": true,
+	"font_face": "ProFontIIx",
+	"font_options":
+	[
+		"no_round",
+		"no_antialias"
+	],
+	"font_size": 9.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"RestructuredText",
+		"Vintage"
+	],
+	"rulers":
+	[
+		79
+	],
+	"tab_size": 4,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true
+}
