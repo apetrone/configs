@@ -1,0 +1,32 @@
+[user]
+	name = Adam Petrone
+	email = adampetrone83@gmail.com
+
+[color]
+	ui = True
+
+[core]
+	editor = nano
+	#excludes_file = ~/.gitignore_global
+
+[alias]
+	s = status -uno --ignore-submodules=dirty
+	cm = commit -m
+	d = diff --ignore-submodules=dirty
+	dc = diff --ignore-submodules=dirty --cached
+	r = remote
+	b = branch
+	co = checkout
+	ac = add -u .
+	su = submodule update --init --recursive
+
+[push]
+	default = simple
+
+[url "git@github.com:"]
+        insteadOf = "https://github.com/"
+        insteadOf = "git://github.com/"
+
+[url "git@bitbucket.com:"]
+        insteadOf = "https://bitbucket.org/"
+        insteadOf = "git://bitbucket.org/"
