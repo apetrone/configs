@@ -1,0 +1,11 @@
+announce()
+{
+	spd-say $1;
+	$*;
+	if [ $? == 0 ]; then
+		spd-say "complete";
+	else
+		spd-say "failure";
+	fi
+}
+alias a=announce
