@@ -9,3 +9,5 @@ announce()
 	fi
 }
 alias a=announce
+
+alias g=git
