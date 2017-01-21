@@ -7,5 +7,16 @@
 	"editor.autoClosingBrackets": false,
 	"editor.useTabStops": true,
 	"editor.trimAutoWhitespace": true,
-	"files.trimTrailingWhitespace": true
+	"files.trimTrailingWhitespace": true,
+	"files.exclude": {
+	"**/.git": true,
+	"**/.svn": true,
+	"**/.hg": true,
+	"**/.DS_Store": true,
+	"**/.d": true,
+	"**/.o": true,
+	"**/.obj": true,
+	"**/.pdb": true,
+	"**/.ilk": true
+    }
 }
