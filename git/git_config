@@ -14,6 +14,7 @@
 	cm = commit -m
 	d = diff --ignore-submodules=dirty
 	dc = diff --ignore-submodules=dirty --cached
+	dcc = diff --ignore-submodules=dirty --cached --check
 	r = remote
 	b = branch
 	co = checkout
